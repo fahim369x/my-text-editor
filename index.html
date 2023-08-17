@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h2>My Text Editor</h2>
+      <div class="container">
+        <div class="buttons">
+          <div class="left">
+            <button id="bold"><i id="1" class="bx bx-bold"></i></button>
+            <button id="italic"><i id="2" class="bx bx-italic"></i></button>
+            <button id="underLine">
+              <i id="3" class="bx bx-underline"></i>
+            </button>
+          </div>
+          <div class="mid">
+            <button id="leftAlign">
+              <i id="4" class="bx bx-align-left"></i>
+            </button>
+            <button id="centerAlign">
+              <i id="5" class="bx bx-align-middle"></i>
+            </button>
+            <button id="rightAlign">
+              <i id="6" class="bx bx-align-right"></i>
+            </button>
+            <button id="justify">
+              <i id="7" class="bx bx-align-justify"></i>
+            </button>
+          </div>
+          <div class="right">
+            <button id="textSize">
+              <input type="number" value="15" id="fontSize" />
+            </button>
+            <button id="texttransfrom">aA</button>
+            <button id="colorPalat"><input type="color" id="color" /></button>
+          </div>
+        </div>
+        <div class="textarea">
+          <textarea id="textArea"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
